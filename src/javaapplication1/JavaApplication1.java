@@ -17,14 +17,14 @@ public class JavaApplication1 {
         float altura, peso, imc;
 Scanner scan = new Scanner(System.in);
 System.out.println("IMC");
-System.out.println("Informe seu peso em Quilogramas");
+System.out.println("Informe seu peso em Quilogramas2");
 peso = scan.nextFloat();
-System.out.println("Informe seu altura em Metros");
+System.out.println("Informe seu altura em Metros2");
 altura = scan.nextFloat();
 imc = (peso / (altura * altura));
 System.out.println(imc);
 if (imc < 20) 
-System.out.println( "Abaixo do Peso");
+System.out.println( "Abaixo do Peso2");
 
 else if((imc >= 20) && (imc < 25)) {
 System.out.println("Peso Ideal");
